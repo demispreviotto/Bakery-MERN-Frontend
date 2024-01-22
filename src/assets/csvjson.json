@@ -1,0 +1,624 @@
+[
+  {
+    "ingredientName": "oil",
+    "type": "dry",
+    "provider": "supermarket",
+    "brand": "",
+    "presentation": 900,
+    "measure": "",
+    "cost": 900,
+    "note": "prices used due to higher value."
+  },
+  {
+    "ingredientName": "almonds",
+    "type": "nuts",
+    "provider": "pleasures",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 5235,
+    "note": "shipping: $50 per kilo"
+  },
+  {
+    "ingredientName": "cornstarch",
+    "type": "dry",
+    "provider": "estimated price",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "frozen blueberries",
+    "type": "grocery",
+    "provider": "frozen vibes",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 2640,
+    "note": ""
+  },
+  {
+    "ingredientName": "dried cranberries",
+    "type": "nuts",
+    "provider": "goipat",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "oats",
+    "type": "dry",
+    "provider": "barce",
+    "brand": "",
+    "presentation": 300,
+    "measure": "",
+    "cost": 335,
+    "note": ""
+  },
+  {
+    "ingredientName": "white sugar",
+    "type": "dry",
+    "provider": "",
+    "brand": "",
+    "presentation": 10000,
+    "measure": "",
+    "cost": 5200,
+    "note": ""
+  },
+  {
+    "ingredientName": "muscovado sugar",
+    "type": "dry",
+    "provider": "sfco",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 870,
+    "note": ""
+  },
+  {
+    "ingredientName": "banana",
+    "type": "grocery",
+    "provider": "1x140 grs",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 600,
+    "note": ""
+  },
+  {
+    "ingredientName": "sweet potato",
+    "type": "dry",
+    "provider": "",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 2317,
+    "note": ""
+  },
+  {
+    "ingredientName": "baking soda",
+    "type": "dry",
+    "provider": "sfco",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 1004,
+    "note": ""
+  },
+  {
+    "ingredientName": "small bags (15x35)",
+    "type": "packaging",
+    "provider": "cecy pack",
+    "brand": "",
+    "presentation": 100,
+    "measure": "",
+    "cost": 250,
+    "note": ""
+  },
+  {
+    "ingredientName": "small bags",
+    "type": "packaging",
+    "provider": "cecy pack",
+    "brand": "",
+    "presentation": 100,
+    "measure": "",
+    "cost": 250,
+    "note": ""
+  },
+  {
+    "ingredientName": "large bags (25x35)",
+    "type": "packaging",
+    "provider": "cecy pack",
+    "brand": "",
+    "presentation": 100,
+    "measure": "",
+    "cost": 250,
+    "note": ""
+  },
+  {
+    "ingredientName": "small bowl",
+    "type": "packaging",
+    "provider": "cecy pack",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "bitter cocoa",
+    "type": "dry",
+    "provider": "sfco",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 2693,
+    "note": ""
+  },
+  {
+    "ingredientName": "alfajor boxes",
+    "type": "packaging",
+    "provider": "cecy pack",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "chocolate chips",
+    "type": "dry",
+    "provider": "",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "chocolate",
+    "type": "dry",
+    "provider": "rayito cotillon",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 2416,
+    "note": ""
+  },
+  {
+    "ingredientName": "white chocolate",
+    "type": "dry",
+    "provider": "rossi",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "sugar-free chocolate",
+    "type": "dry",
+    "provider": "rossi",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "cream",
+    "type": "dairy",
+    "provider": "",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "dates",
+    "type": "nuts",
+    "provider": "goipat",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "dulce de leche",
+    "type": "dairy",
+    "provider": "lfc",
+    "brand": "",
+    "presentation": 3000,
+    "measure": "",
+    "cost": 3100,
+    "note": ""
+  },
+  {
+    "ingredientName": "sugar-free dulce de leche",
+    "type": "dairy",
+    "provider": "",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "labels",
+    "type": "packaging",
+    "provider": "",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "adhesive labels 5.5",
+    "type": "packaging",
+    "provider": "",
+    "brand": "",
+    "presentation": 14,
+    "measure": "",
+    "cost": 415,
+    "note": ""
+  },
+  {
+    "ingredientName": "adhesive labels 6.5",
+    "type": "packaging",
+    "provider": "",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "adhesive labels 5",
+    "type": "packaging",
+    "provider": "",
+    "brand": "",
+    "presentation": 14,
+    "measure": "",
+    "cost": 415,
+    "note": ""
+  },
+  {
+    "ingredientName": "ghee",
+    "type": "dairy",
+    "provider": "",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "whole wheat flour don paisa",
+    "type": "dry",
+    "provider": "",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "flour 000",
+    "type": "dry",
+    "provider": "barce",
+    "brand": "",
+    "presentation": 5000,
+    "measure": "",
+    "cost": 1200,
+    "note": ""
+  },
+  {
+    "ingredientName": "oat flour",
+    "type": "dry",
+    "provider": "granger",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "whole wheat flour",
+    "type": "dry",
+    "provider": "",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 350,
+    "note": ""
+  },
+  {
+    "ingredientName": "eggs",
+    "type": "grocery",
+    "provider": "",
+    "brand": "",
+    "presentation": 30,
+    "measure": "",
+    "cost": 1390,
+    "note": ""
+  },
+  {
+    "ingredientName": "milk",
+    "type": "dairy",
+    "provider": "",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 250,
+    "note": ""
+  },
+  {
+    "ingredientName": "lemons",
+    "type": "grocery",
+    "provider": "",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "light",
+    "type": "services",
+    "provider": "",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": "average of 500 products per month"
+  },
+  {
+    "ingredientName": "mandarin",
+    "type": "grocery",
+    "provider": "",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 690,
+    "note": ""
+  },
+  {
+    "ingredientName": "peanuts",
+    "type": "nuts",
+    "provider": "goipat",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "butter",
+    "type": "dairy",
+    "provider": "lfc",
+    "brand": "",
+    "presentation": 200,
+    "measure": "",
+    "cost": 422,
+    "note": ""
+  },
+  {
+    "ingredientName": "peanut butter",
+    "type": "nuts",
+    "provider": "sfco",
+    "brand": "",
+    "presentation": 370,
+    "measure": "",
+    "cost": 660,
+    "note": ""
+  },
+  {
+    "ingredientName": "apple",
+    "type": "grocery",
+    "provider": "",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 850,
+    "note": "1x170grs"
+  },
+  {
+    "ingredientName": "carob biscuits",
+    "type": "dry",
+    "provider": "healthy distribution",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "vanilla biscuits",
+    "type": "dry",
+    "provider": "healthy distribution",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "quince",
+    "type": "dry",
+    "provider": "cormoran",
+    "brand": "",
+    "presentation": 5000,
+    "measure": "",
+    "cost": 2317,
+    "note": ""
+  },
+  {
+    "ingredientName": "seed mix",
+    "type": "nuts",
+    "provider": "goipat",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 687,
+    "note": ""
+  },
+  {
+    "ingredientName": "mold for 300g cake",
+    "type": "packaging",
+    "provider": "ceci pack",
+    "brand": "",
+    "presentation": 100,
+    "measure": "",
+    "cost": 4000,
+    "note": ""
+  },
+  {
+    "ingredientName": "mold for 500g cake",
+    "type": "packaging",
+    "provider": "ceci pack",
+    "brand": "",
+    "presentation": 100,
+    "measure": "",
+    "cost": 6000,
+    "note": ""
+  },
+  {
+    "ingredientName": "tulip mold",
+    "type": "packaging",
+    "provider": "barce",
+    "brand": "",
+    "presentation": "",
+    "measure": "",
+    "cost": "",
+    "note": ""
+  },
+  {
+    "ingredientName": "orange",
+    "type": "grocery",
+    "provider": "",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 590,
+    "note": "1x225 grs"
+  },
+  {
+    "ingredientName": "walnuts",
+    "type": "nuts",
+    "provider": "goipat",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 2674,
+    "note": ""
+  },
+  {
+    "ingredientName": "raisins",
+    "type": "nuts",
+    "provider": "goipat",
+    "brand": "",
+    "presentation": 1000,
+    "measure": "",
+    "cost": 1151,
+    "note": ""
+  },
+  [
+    {
+      "ingredientName": "Pear",
+      "type": "Vegetables",
+      "provider": "1x210g",
+      "brand": "",
+      "presentation": 1000,
+      "measure": "",
+      "cost": 400,
+      "note": ""
+    },
+    {
+      "ingredientName": "Baking Powder",
+      "type": "Dry Goods",
+      "provider": "Goipat",
+      "brand": "",
+      "presentation": 1000,
+      "measure": "",
+      "cost": 1683,
+      "note": ""
+    },
+    {
+      "ingredientName": "Hinge Pot",
+      "type": "Packaging",
+      "provider": "Cecy Pack",
+      "brand": "",
+      "presentation": null,
+      "measure": "",
+      "cost": null,
+      "note": ""
+    },
+    {
+      "ingredientName": "Casancrem Light Cream Cheese",
+      "type": "Dairy",
+      "provider": "Hiper",
+      "brand": "",
+      "presentation": null,
+      "measure": "",
+      "cost": null,
+      "note": ""
+    },
+    {
+      "ingredientName": "Pumpkin Seeds",
+      "type": "Nuts",
+      "provider": "",
+      "brand": "",
+      "presentation": 1000,
+      "measure": "",
+      "cost": 5146,
+      "note": ""
+    },
+    {
+      "ingredientName": "Chia Seeds",
+      "type": "Nuts",
+      "provider": "",
+      "brand": "",
+      "presentation": 1000,
+      "measure": "",
+      "cost": 1484,
+      "note": ""
+    },
+    {
+      "ingredientName": "Vanilla",
+      "type": "Dry Goods",
+      "provider": "",
+      "brand": "",
+      "presentation": 1000,
+      "measure": "",
+      "cost": 585,
+      "note": ""
+    },
+    {
+      "ingredientName": "Carrot",
+      "type": "Vegetables",
+      "provider": "",
+      "brand": "",
+      "presentation": 2000,
+      "measure": "",
+      "cost": 400,
+      "note": ""
+    },
+    {
+      "ingredientName": "Almond Flour",
+      "type": "Dry Goods",
+      "provider": "Placeres",
+      "brand": "",
+      "presentation": 1000,
+      "measure": "",
+      "cost": 2730,
+      "note": ""
+    }
+  ]
+]

@@ -1,0 +1,53 @@
+@import "../../../../variables";
+
+input {
+    width: 90%;
+    margin: 0;
+
+}
+
+table {
+    height: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: center;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+caption {
+    caption-side: top;
+    text-align: left;
+}
+
+th {
+    border: 1px solid $border-th-1;
+    background-color: rgba(126, 125, 122, 0.06);
+    padding: 5px;
+}
+
+td {
+    border: 1px solid $border-th-1;
+    padding: 5px;
+
+    &:last-child {
+        background-color: transparent !important;
+        border: none;
+        width: 3px;
+        opacity: .1;
+        transition: all ease-in-out 2ms;
+    }
+
+    &:last-child:hover {
+        opacity: 1;
+    }
+}
+
+tr:nth-child(even) td {
+    background-color: rgba(126, 125, 122, 0.06);
+}
+
+tr:nth-child(odd) td {
+    background-color: rgb(254, 251, 246);
+}

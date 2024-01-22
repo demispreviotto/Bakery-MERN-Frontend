@@ -1,0 +1,28 @@
+@import "../../../variables";
+
+.radio-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    label {
+        display: flex;
+
+        input {
+            width: 15px;
+            margin: 0 10px;
+        }
+
+        input[type="radio"] {
+            border-color: $primary-color;
+
+            &::before {
+                content: ""
+            }
+
+            &:checked::before {
+                content: ""
+            }
+        }
+    }
+}

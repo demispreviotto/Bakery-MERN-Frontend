@@ -1,0 +1,13 @@
+@import '../../../../variables';
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1em;
+}
+
+.active {
+    color: $primary-color;
+    border-bottom: 1px solid $primary-color;
+}
