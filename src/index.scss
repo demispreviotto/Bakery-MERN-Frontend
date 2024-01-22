@@ -5,8 +5,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: var(--dark-gray);
-  background-color: var(--backgrownd-color);
+  color: $dark-gray;
+  background-color: $backgrownd-color;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
