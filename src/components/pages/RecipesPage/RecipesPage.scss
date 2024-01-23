@@ -1,0 +1,10 @@
+.recipes-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .container {
+        height: 80vh;
+        overflow: auto;
+    }
+}

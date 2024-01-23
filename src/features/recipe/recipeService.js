@@ -2,18 +2,22 @@ import axios from "axios";
 
 const API_URL = 'http://localhost:8080/recipes/'
 
-const getAll = async () => {
-    const response = await axios.get(API_URL);
+const getAllRecipes = async () => {
+    const token = JSON.parse(localStorage.getItem("token"));
+    const config = { headers: { Authorization: token } }
+    const response = await axios.get(API_URL, config);
     return response.data;
 }
-const getById = async (_id) => {
-    const response = await axios.get(API_URL + _id);
+const getRecipesById = async (_id) => {
+    const token = JSON.parse(localStorage.getItem("token"));
+    const config = { headers: { Authorization: token } }
+    const response = await axios.get(API_URL + _id, config);
     return response.data;
 }
 
 const recipeService = {
-    getAll,
-    getById,
+    getAllRecipes,
+    getRecipesById,
 }
 
 export default recipeService;

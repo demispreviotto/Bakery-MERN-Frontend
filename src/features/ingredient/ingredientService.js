@@ -9,11 +9,17 @@ const createIngredient = async (data) => {
     return response.data;
 }
 const getAllIngredients = async () => {
-    const response = await axios.get(API_URL);
+    const token = JSON.parse(localStorage.getItem("token"));
+    // console.log(token)
+    const config = { headers: { Authorization: token } }
+    const response = await axios.get(API_URL, config);
+    // console.log(response.data)
     return response.data;
 }
 const getIngredientsById = async (_id) => {
-    const response = await axios.get(API_URL + 'id/' + _id);
+    const token = JSON.parse(localStorage.getItem("token"));
+    const config = { headers: { Authorization: token } }
+    const response = await axios.get(API_URL + 'id/' + _id, config);
     return response.data;
 }
 const updateIngredientById = async (_id, data) => {

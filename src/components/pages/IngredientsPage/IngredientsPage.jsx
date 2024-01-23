@@ -6,7 +6,7 @@ import NewIngredient from '../../Ingredient/NewIngredient/NewIngredient';
 import ModalHigher from '../../common/Modal/ModalHigher';
 import "./IngredientsPage.scss"
 
-const IngredientList = () => {
+const IngredientsPage = () => {
     const dispatch = useDispatch();
     const ingredients = useSelector((state) => state.ingredient.ingredients);
 
@@ -33,55 +33,31 @@ const IngredientList = () => {
     }, []);
 
     return (
-        <>
+        <div className='ingredients-page'>
             <h2>Ingredients</h2>
             <div className="ingredient-search">
                 <form className='search-form'>
                     <input type="text" value={searchCriteria.value} onChange={handleSearchChange} placeholder="Search..." />
-                    <div className='radio-container'>
-                        <label>
-                            <input
-                                type="radio"
-                                value="ingredientName"
-                                checked={searchCriteria.parameter === 'ingredientName'}
-                                onChange={() => setSearchCriteria({ ...searchCriteria, parameter: 'ingredientName' })}
-                            />
-                            <span>Ingredient Name</span>
-                        </label>
-                        <label>
-                            <input
-                                type="radio"
-                                value="type"
-                                checked={searchCriteria.parameter === 'type'}
-                                onChange={() => setSearchCriteria({ ...searchCriteria, parameter: 'type' })}
-                            />
-                            <span>Type</span>
-                        </label>
-                        <label>
-                            <input
-                                type="radio"
-                                value="provider"
-                                checked={searchCriteria.parameter === 'provider'}
-                                onChange={() => setSearchCriteria({ ...searchCriteria, parameter: 'provider' })}
-                            />
-                            <span>Provider</span>
-                        </label>
-                    </div>
+                    <select
+                        value={searchCriteria.parameter}
+                        onChange={(e) => setSearchCriteria({ ...searchCriteria, parameter: e.target.value })}
+                    >
+                        <option value="ingredientName">Name</option>
+                        <option value="type">Type</option>
+                        <option value="provider">Provider</option>
+                    </select>
                 </form>
             </div>
-            <div className="ingredient-list">
-                <div className="container">
-                    {filteredIngredients.map((ingredient) => (
-                        <IngredientCard key={ingredient._id} ingredient={ingredient} />
-                    ))}
-                </div>
+            <div className="container">
+                {filteredIngredients.map((ingredient) => (
+                    <IngredientCard key={ingredient._id} ingredient={ingredient} />
+                ))}
             </div>
             <ModalHigher>
                 <NewIngredient />
             </ModalHigher>
-
-        </>
+        </div>
     );
 };
 
-export default IngredientList;
+export default IngredientsPage;

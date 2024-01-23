@@ -6,10 +6,11 @@
     width: 4em;
     height: 4em;
     border-radius: 3em;
-    background-color: $dark-gray;
+    background-color: $secondary-color;
 }
 
 .avatar svg {
     height: 100%;
     width: 100%;
+    fill: $backgrownd-color;
 }

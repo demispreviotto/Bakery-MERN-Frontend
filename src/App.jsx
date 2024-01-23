@@ -11,6 +11,8 @@ import RecipesPage from './components/pages/RecipesPage/RecipesPage'
 import RecipesDetailPage from './components/pages/RecipesDetailPage/RecipeDetailPage'
 import IngredientsPage from './components/pages/IngredientsPage/IngredientsPage'
 import IngredientsDetailPage from './components/pages/IngredientsDetailPage/IngredientDetailPage'
+import Loading from './components/common/Loading/Loading'
+import Preloader from './components/pages/Preloader/Preloader'
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/login' element={<Login />} />
+            <Route path='/loading' element={<Loading />} />
+            <Route path='/preloader' element={<Preloader />} />
             <Route path='/register' element={<Register />} />
             <Route path='/profile' element={<Profile />} />
             <Route path='/recipes' element={<RecipesPage />} />
