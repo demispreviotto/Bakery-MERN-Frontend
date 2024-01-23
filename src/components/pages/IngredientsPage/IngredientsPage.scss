@@ -3,26 +3,40 @@
 .radio-container {
     display: flex;
     flex-direction: row;
-    gap: 20px;
 
     label {
         display: flex;
+        cursor: pointer;
+        font-weight: 500;
+        position: relative;
+        overflow: hidden;
 
         input {
-            width: 15px;
-            margin: 0 10px;
-        }
+            position: absolute;
+            left: -9999px;
 
-        input[type="radio"] {
-            border-color: $primary-color;
+            &:checked+span {
+                background-color: $primary-color;
+                color: white;
 
-            &::before {
-                content: ""
-            }
-
-            &:checked::before {
-                content: ""
+                &:before {
+                    box-shadow: inset 0 0 0 0.4375em $primary-color;
+                }
             }
         }
+
+        span {
+            display: flex;
+            align-items: center;
+            padding: 0.375em 0.75em;
+            border-radius: 99em;
+            transition: 0.25s ease;
+
+            &:hover {
+                background-color: mix(#fff, $primary-color, 84%);
+            }
+
+        }
+
     }
 }

@@ -46,7 +46,7 @@ const IngredientList = () => {
                                 checked={searchCriteria.parameter === 'ingredientName'}
                                 onChange={() => setSearchCriteria({ ...searchCriteria, parameter: 'ingredientName' })}
                             />
-                            Ingredient Name
+                            <span>Ingredient Name</span>
                         </label>
                         <label>
                             <input
@@ -55,7 +55,7 @@ const IngredientList = () => {
                                 checked={searchCriteria.parameter === 'type'}
                                 onChange={() => setSearchCriteria({ ...searchCriteria, parameter: 'type' })}
                             />
-                            Type
+                            <span>Type</span>
                         </label>
                         <label>
                             <input
@@ -64,7 +64,7 @@ const IngredientList = () => {
                                 checked={searchCriteria.parameter === 'provider'}
                                 onChange={() => setSearchCriteria({ ...searchCriteria, parameter: 'provider' })}
                             />
-                            Provider
+                            <span>Provider</span>
                         </label>
                     </div>
                 </form>

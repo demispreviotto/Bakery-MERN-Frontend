@@ -169,15 +169,15 @@ table {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: $clr-txt-4;
-    background-color: $clr-bg-4;
+    color: $backgrownd-color;
+    background-color: $dark-gray;
   }
 
   a:hover {
-    color: $clr-txt-3;
+    color: $primary-color;
   }
 
   button {
-    background-color: $clr-bg-5;
+    background-color: $dark-gray;
   }
 }

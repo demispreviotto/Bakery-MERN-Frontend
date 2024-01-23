@@ -4,7 +4,7 @@ import { getAll } from '../../../features/recipe/recipeSlice';
 import RecipeCard from '../../Recipe/RecipeCard/RecipeCard';
 import NewRecipe from '../../Recipe/NewRecipe/NewRecipe'
 import ModalHigher from '../../common/Modal/ModalHigher';
-import './RecipePage.scss'
+import './RecipesPage.scss'
 const RecipeList = () => {
     const dispatch = useDispatch();
     const recipes = useSelector((state) => state.recipe.recipes);
