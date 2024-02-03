@@ -156,9 +156,9 @@ table {
 
 .container {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
+  justify-content: center;
+  max-width: 90vw;
+  flex-wrap: wrap;
   gap: 1em;
 }
 
@@ -186,28 +186,32 @@ table {
   width: 2em;
 }
 
-.search-form {
+.search-container {
+  display: flex;
+  justify-content: flex-end;
   flex-direction: row;
-  gap: 0;
-  border: 1px solid $primary-color;
-  border-radius: 10px;
-  max-width: 320px;
-  margin: 0 auto;
 
-  input {
-    border-radius: 0;
-    border: none;
-    outline: none;
-    background-color: transparent;
-  }
+  .search-form {
+    flex-direction: row;
+    border: 1px solid $primary-color;
+    border-radius: 10px;
+    max-width: 320px;
 
-  select {
-    width: auto;
-    border-radius: 0;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    border-left: 1px solid $primary-color;
+    input {
+      border-radius: 0;
+      border: none;
+      outline: none;
+      background-color: transparent;
+    }
+
+    select {
+      width: auto;
+      border-radius: 0;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      border-left: 1px solid $primary-color;
+    }
   }
 }
 

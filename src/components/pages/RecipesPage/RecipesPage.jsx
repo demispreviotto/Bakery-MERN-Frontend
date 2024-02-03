@@ -35,17 +35,19 @@ const RecipesPage = () => {
     return (
         <div className='recipes-page'>
             <h2>Recipes</h2>
-            <form className='search-form'>
-                <input type="text" value={searchCriteria.value} onChange={handleSearchChange} placeholder="Search..." />
-                <select
-                    value={searchCriteria.parameter}
-                    onChange={(e) => setSearchCriteria({ ...searchCriteria, parameter: e.target.value })}
-                >
-                    <option value="recipeName">Name</option>
-                    <option value="type">Type</option>
-                    <option value="provider">Provider</option>
-                </select>
-            </form>
+            <div className="search-container">
+                <form className='search-form'>
+                    <input type="text" value={searchCriteria.value} onChange={handleSearchChange} placeholder="Search..." />
+                    <select
+                        value={searchCriteria.parameter}
+                        onChange={(e) => setSearchCriteria({ ...searchCriteria, parameter: e.target.value })}
+                    >
+                        <option value="recipeName">Name</option>
+                        <option value="type">Type</option>
+                        <option value="provider">Provider</option>
+                    </select>
+                </form>
+            </div>
             <div className="container">
                 {filteredIngredients.map((recipe) => (
                     <RecipeCard key={recipe._id} recipe={recipe} />

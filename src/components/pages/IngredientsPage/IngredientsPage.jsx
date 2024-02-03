@@ -35,7 +35,7 @@ const IngredientsPage = () => {
     return (
         <div className='ingredients-page'>
             <h2>Ingredients</h2>
-            <div className="ingredient-search">
+            <div className="search-container">
                 <form className='search-form'>
                     <input type="text" value={searchCriteria.value} onChange={handleSearchChange} placeholder="Search..." />
                     <select

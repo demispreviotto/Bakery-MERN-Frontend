@@ -1,16 +1,34 @@
 @import '../../../variables';
 
-.avatar {
-    content: "";
-    display: flex;
-    width: 4em;
-    height: 4em;
-    border-radius: 3em;
-    background-color: $secondary-color;
-}
+.profile-page {
+    .user-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        align-items: center;
 
-.avatar svg {
-    height: 100%;
-    width: 100%;
-    fill: $backgrownd-color;
+        .user-avatar {
+            display: flex;
+            height: 4em;
+            width: 4em;
+            border-radius: 3em;
+            background-color: $secondary-color;
+
+            svg {
+                height: 100%;
+                width: 100%;
+                fill: $backgrownd-color;
+            }
+        }
+
+        .user-info {
+            h2 {
+                margin: 0;
+            }
+
+            h3 {
+                text-transform: lowercase;
+            }
+        }
+    }
 }
